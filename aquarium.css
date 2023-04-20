@@ -290,3 +290,123 @@ h3 {
 .support a:hover {
     color: #ff8c00;
 }
+
+
+/* Media query for mobile devices */
+
+@media (max-width: 767px) {
+    .logo img {
+        width: 25px;
+        height: 20px;
+    }
+    .logo {
+        width: 200px;
+        font-size: 10px;
+    }
+    .header-features {
+        padding-left: 10px;
+    }
+    .main-text {
+        margin: 30px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+        width: 320px;
+    }
+    .title-paragraph {
+        font-size: 200%;
+    }
+    .paragraph {
+        line-height: 25px;
+        margin-bottom: 30px;
+        width: 320px;
+    }
+    .nav-bar {
+        margin-left: 5px;
+        width: 100%;
+        display: block;
+    }
+    .header-features ul li,
+    a {
+        font-size: 0.9em;
+        letter-spacing: 1px;
+    }
+    ul {
+        justify-content: center;
+    }
+    .link-features {
+        margin-top: 60px;
+        width: 100%;
+        font-size: 0.9em;
+        letter-spacing: 2px;
+        padding: 5px 5px;
+    }
+    .section-buy,
+    .section-encexp {
+        margin: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .section-header {
+        font-size: 18px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        letter-spacing: 4px;
+    }
+    .section-encexp .section-header {
+        font-size: 18px;
+        margin-top: 64px;
+    }
+    .section-links {
+        grid-template-columns: 1fr;
+    }
+    .section-links ul li:nth-of-type(2n) {
+        text-align: start;
+    }
+    .section-links img {
+        width: 100%;
+    }
+    .visit-images {
+        display: block;
+    }
+    #visit,
+    #aquarium {
+        margin: 0;
+        opacity: 1;
+    }
+    .animals {
+        margin: 30px;
+        margin-top: 0px;
+    }
+    .animals-imgs {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        width: 320px;
+    }
+    .animals-imgs h3 {
+        font-size: 14px;
+    }
+    .about {
+        margin: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 320px;
+    }
+    .about h2 {
+        font-size: 18px;
+    }
+    .about p {
+        font-size: 12px;
+        line-height: 30px;
+        margin-top: 40px;
+    }
+    .about span {
+        font-size: 12px;
+    }
+    .support {
+        width: 320px;
+        margin: 30px;
+    }
+    .support ul li:nth-of-type(2n) {
+        text-align: left;
+    }
+}
